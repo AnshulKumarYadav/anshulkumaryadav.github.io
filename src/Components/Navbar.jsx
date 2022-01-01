@@ -24,6 +24,7 @@ import "./Navbar.css";
 
 import { FaFileDownload, FaHome, FaList, FaProjectDiagram, FaUserAlt } from "react-icons/fa";
 import { IoIosChatboxes } from "react-icons/io";
+import {HiAcademicCap} from 'react-icons/hi'
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -87,7 +88,17 @@ export default function Navbar() {
                     <b>About</b>
                   </a>
                 </Button>
-
+                <Button
+                  variant="link"
+                  colorScheme="gray.900"
+                  leftIcon={<HiAcademicCap />}
+                  className="btnRes"
+                >
+                  <a href="#Education">
+                    {" "}
+                    <b>Education</b>
+                  </a>
+                </Button>
                 <Button
                   variant="link"
                   colorScheme="gray.900"
@@ -220,7 +231,18 @@ export default function Navbar() {
                     <b>About</b>
                   </a>
                 </Button>
-
+                <Button
+                  onClick={isOpen ? onClose : onOpen}
+                  _hover={{
+                    textShadow: "#FC0 1px 0 10px",
+                    transform: "scale(1.2)",
+                  }}
+                >
+                  <a href="#Education">
+                    {" "}
+                    <b>Education</b>
+                  </a>
+                </Button>
                 <Button
                   onClick={isOpen ? onClose : onOpen}
                   _hover={{
