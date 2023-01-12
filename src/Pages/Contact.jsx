@@ -124,12 +124,12 @@ const Contact = () => {
                 <h2 style={{color:"grey"}} className="heading">Connect With Me On Social Media</h2>
                 <div className="ul1"></div>
                 <ul>
-                    <li><a href="mailto:rishabhyadav3602@gmail.com"><SiGmail className="fab" aria-hidden/></a></li>
-                    <li><a href="https://www.linkedin.com/in/anshul-kumar-yadav/"><SiLinkedin className="fab" aria-hidden/></a></li>
-                    <li><a href="https://github.com/AnshulKumarYadav"><SiGithub className="fab" aria-hidden/></a></li>
-                    <li><a href="https://www.instagram.com/rishuyadav3602"><SiInstagram className="fab" aria-hidden/></a></li>
-                    <li><a href="https://www.facebook.com/people/Rishabh-Yadav/100020567491022/"><SiFacebook className="fab" aria-hidden='true'/></a></li>
-                    <li><a href="tel:7060476249"><MdPhone className="fab" aria-hidden='true'/></a></li>
+                    <li><a target="blank" href="mailto:rishabhyadav3602@gmail.com"><SiGmail className="fab" aria-hidden/></a></li>
+                    <li><a target="blank" href="https://www.linkedin.com/in/anshul-kumar-yadav/"><SiLinkedin className="fab" aria-hidden/></a></li>
+                    <li><a target="blank" href="https://github.com/AnshulKumarYadav"><SiGithub className="fab" aria-hidden/></a></li>
+                    <li><a target="blank" href="https://www.instagram.com/rishuyadav3602"><SiInstagram className="fab" aria-hidden/></a></li>
+                    <li><a target="blank" href="https://www.facebook.com/people/Rishabh-Yadav/100020567491022/"><SiFacebook className="fab" aria-hidden='true'/></a></li>
+                    <li><a target="blank" href="tel:7060476249"><MdPhone className="fab" aria-hidden='true'/></a></li>
                 </ul>
                 <h2 className="heading">Send A Message To Me</h2>
                 <div className="ul1"></div>
