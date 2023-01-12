@@ -180,9 +180,12 @@
 }
 
 @media only screen and (max-width:452px) {
+    #about-education{
+        height: 150vh;
+    }
 
     #About{
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
         .img{
             display: none;
             width: 0;
@@ -194,6 +197,7 @@
     #education{
         .college{
             .edu_cont{
+                height: 25vh;
                 .ed-name{
                     h2{
                         font-size: 12px;

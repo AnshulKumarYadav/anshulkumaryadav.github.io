@@ -73,12 +73,12 @@
 
     #Home{
         height: 200vh;
-        border: 1px solid teal;
+        // border: 1px solid teal;
         display: block;
         #textAbout{
             width: 100%;
             height: 100vh;
-            border: 1px solid red;
+            // border: 1px solid red;
         }
         #imgBox{
             width: 100%;
@@ -102,9 +102,9 @@
 
 @media only screen and (max-width:550px) {
     #Home{
-        height: 160vh;
+        height: 130vh;
         #textAbout{
-            height: 110vh;
+            height: 80vh;
             P{
                 font-size: 13px;
             }

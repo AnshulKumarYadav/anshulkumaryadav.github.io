@@ -1,7 +1,7 @@
 import React from "react";
-import {SiFacebook, SiGithub, SiGmail, SiInstagram, SiTwitter} from 'react-icons/si';
+import {SiFacebook, SiGithub, SiGmail, SiInstagram, SiLinkedin, SiTwitter, SiWhatsapp} from 'react-icons/si';
 import {FaBookReader, FaLinkedin, FaUserAlt} from 'react-icons/fa';
-import {MdMail} from 'react-icons/md';
+import {MdMail, MdPhone} from 'react-icons/md';
 import '../Styles/Contact.scss';
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
@@ -44,11 +44,6 @@ const Contact = () => {
     }
 
 
-  let socialIcons = {
-    fontSize : "30px",
-    color : "white",
-    margin: '28% 0% 0% 30%'
-}
   return (
     <div id="Contact">
       <div style={{padding:"1rem 0rem 0rem 2.5rem"}} >
@@ -61,7 +56,7 @@ const Contact = () => {
                 <div className="socialBox">
                     <div className="socialIconLink">
                         <a href="mailto:rishabhyadav3602@gmail.com">
-                           <SiGmail className="icons" style={socialIcons}/>
+                           <SiGmail className="icons" />
                         </a>
                     </div>
                     <div className="social-details">
@@ -72,7 +67,7 @@ const Contact = () => {
                 <div className="socialBox">
                     <div className="socialIconLink">
                         <a target='blank' href="https://www.linkedin.com/in/anshul-kumar-yadav/">
-                            <FaLinkedin className="icons" style={socialIcons}/>   
+                            <FaLinkedin className="icons" />   
                         </a>
                     </div>
                     <div className="social-details">
@@ -83,7 +78,7 @@ const Contact = () => {
                 <div className="socialBox">
                     <div className="socialIconLink">
                     <a target='blank' href="https://github.com/AnshulKumarYadav">
-                        <SiGithub className="icons" style={socialIcons}/>
+                        <SiGithub className="icons" />
                     </a>
                     </div>
                     <div className="social-details">
@@ -94,7 +89,7 @@ const Contact = () => {
                 <div className="socialBox">
                     <div className="socialIconLink">
                     <a target='blank' href="https://www.facebook.com/people/Rishabh-Yadav/100020567491022/">
-                        <SiFacebook className="icons" style={socialIcons}/>
+                        <SiFacebook className="icons" />
                     </a>
                     </div>
                     <div className="social-details">
@@ -105,7 +100,7 @@ const Contact = () => {
                 <div className="socialBox">
                     <div className="socialIconLink" >
                     <a target='blank' href="https://www.instagram.com/rishuyadav3602">
-                        <SiInstagram className="icons" style={socialIcons}/>
+                        <SiInstagram className="icons" />
                     </a>
                     </div>
                     <div className="social-details">
@@ -113,10 +108,20 @@ const Contact = () => {
                         <a target='blank' href="https://www.instagram.com/rishuyadav3602">@rishuyadav3602</a>
                     </div>
                 </div>
+                <div id="social2">
+                <ul>
+                    <li><a href="mailto:rishabhyadav3602@gmail.com"><SiGmail className="fab" aria-hidden/></a></li>
+                    <li><a href="https://www.linkedin.com/in/anshul-kumar-yadav/"><SiLinkedin className="fab" aria-hidden/></a></li>
+                    <li><a href="https://github.com/AnshulKumarYadav"><SiGithub className="fab" aria-hidden/></a></li>
+                    <li><a href="https://www.instagram.com/rishuyadav3602"><SiInstagram className="fab" aria-hidden/></a></li>
+                    <li><a href="https://www.facebook.com/people/Rishabh-Yadav/100020567491022/"><SiFacebook className="fab" aria-hidden='true'/></a></li>
+                    <li><a href="tel:7060476249"><MdPhone className="fab" aria-hidden='true'/></a></li>
+                </ul>
+                </div>
                 <div className="socialBox">
                     <div className="socialIconLink">
                         <a target='blank' href="https://twitter.com/RISHABH48133056">
-                            <SiTwitter className="icons" style={socialIcons}/>
+                            <SiTwitter className="icons" />
                         </a>
                     </div>
                     <div className="social-details">

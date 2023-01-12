@@ -104,7 +104,7 @@
   @media only screen and (max-width:1000px) {
     #Projects{
       height: 200vh;
-      border: 1px solid red;
+      // border: 1px solid red;
     }
     #projectItem{
       grid-template-columns: repeat(2,1fr);
@@ -114,7 +114,7 @@
   @media only screen and (max-width:662px) {
     #Projects{
       height: 400vh;
-      border: 1px solid red;
+      // border: 1px solid red;
     }
     #projectItem{
       grid-template-columns: repeat(1,1fr);
@@ -128,7 +128,7 @@
 
   @media only screen and (max-width:425px) {
     #Projects{
-      height: 320vh;
+      height: 280vh;
     }
     #projectItem{
       grid-template-columns: repeat(1,1fr);
