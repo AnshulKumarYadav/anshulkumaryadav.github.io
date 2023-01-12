@@ -56,7 +56,7 @@ const Contact = () => {
                 <div className="socialBox">
                     <div className="socialIconLink">
                         <a href="mailto:rishabhyadav3602@gmail.com">
-                           <SiGmail className="icons" />
+                           <SiGmail className="icons"/>
                         </a>
                     </div>
                     <div className="social-details">
