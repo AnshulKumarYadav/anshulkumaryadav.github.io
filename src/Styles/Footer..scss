@@ -1,0 +1,33 @@
+#Footer{
+    width: 100%;
+    background-color: #00203f ;
+    height: 50vh;
+    margin-top: -2.9rem;
+    padding-top: 5rem;
+    padding-bottom: 10vh;
+    color: #fff;
+    h2{
+        text-align: center;
+        font-size: 35px;
+        text-decoration: underline;
+    }
+    p{
+        text-align: center;
+    }
+    .line{
+        width: 60%;
+        height: 1px ;
+        margin: auto;
+        background-color: #fff;
+    }
+    .nav{
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        text-decoration: underline;
+        font-size: 20px;
+        margin: auto;
+        margin-top: 1rem ;
+        margin-bottom: 1rem;
+    }
+}

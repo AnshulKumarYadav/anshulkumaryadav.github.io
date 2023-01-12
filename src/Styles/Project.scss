@@ -1,0 +1,154 @@
+#Projects{
+    width: 100%;
+    height: 130vh;
+    padding-left: 2.5rem;
+    // border: 1px solid teal;
+}
+#projectItem{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto,1fr);
+    grid-gap: 30px;
+    margin-top: 130px;
+}
+  
+  .container {
+    position : relative;
+    // width : 1100px;
+    display : flex;
+    align-items : center;
+    justify-content : start;
+    flex-warp : warp;
+    // padding : 30px;  
+    margin-bottom: 10%;
+  }
+  
+  .container .card {
+    position: relative;
+    max-width : 300px;
+    height : 215px;  
+    background-color : #fff;
+    // margin : 30px 10px;
+    padding : 20px 15px;
+    
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+  }
+  .container .card:hover {
+    height : 420px;    
+  }
+  
+  
+  .container .card .image {
+    position : relative;
+    width : 260px;
+    height : 260px;
+    
+    top : -40%;
+    left: 8px;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    z-index : 1;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    color: #111;
+
+  }
+  
+  .container .card .image img {
+    max-width : 100%;
+    border-radius : 15px;
+  }
+  
+  .container .card .content {
+    position : relative;
+    top : -140px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : start;
+    
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+      
+  }
+  
+  .container .card:hover .content {
+    //  margin-top : 10px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+    
+  }
+  .content{
+    h3{
+        text-decoration: underline;
+        font-weight: bold;
+    }
+  }
+
+  .content>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    
+  }
+
+  @media only screen and (max-width:1000px) {
+    #Projects{
+      height: 200vh;
+      border: 1px solid red;
+    }
+    #projectItem{
+      grid-template-columns: repeat(2,1fr);
+      margin-top: 10%;
+    }
+  }
+  @media only screen and (max-width:662px) {
+    #Projects{
+      height: 400vh;
+      border: 1px solid red;
+    }
+    #projectItem{
+      grid-template-columns: repeat(1,1fr);
+      .container{
+        margin: auto;
+        margin-bottom: 4rem;
+      }
+    }
+    
+  }
+
+  @media only screen and (max-width:425px) {
+    #Projects{
+      height: 320vh;
+    }
+    #projectItem{
+      grid-template-columns: repeat(1,1fr);
+      .container{
+        margin: auto;
+        margin-bottom: 4rem;
+
+        .card{
+          max-width: 220px;
+          height: 150px;
+          .image{
+            max-width: 180px;
+          }
+        }
+        .card:hover{
+          height: 500px;
+        }
+       
+      }
+    }
+    
+  }
+
