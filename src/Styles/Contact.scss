@@ -49,33 +49,33 @@
     #social2{
         display: none;
         width: 100%;
-        height: 30vh;
+        height: 40vh;
         margin: auto;
-        border: 1px solid red;
+        // border: 1px solid red;
         // width: 0;
 
         .heading{
             text-align: center;
-            color: rgb(20, 164, 172);
-            h2{
-                font-size: 15px;
-                font-weight: normal;
-            }
+            color: rgb(212, 253, 255);
+            font-size: 20px;
+            font-weight: normal;
         }
         .ul1{
             margin: auto;
-            width: 40%;
+            width: 80%;
             height: 1px;
             background-color: #fff;
             margin-bottom: 0.5rem;
         }
         
         ul{
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-            justify-items: center;
-            
+            width: 80%;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,auto);
+            gap: 10px;
+            margin: auto;
+            margin-bottom: 1rem;
 
             li{
                 list-style: none;
@@ -217,7 +217,7 @@
     
     #Contact{
         height: 180vh;
-        border: 1px solid rgb(250, 231, 14);
+        // border: 1px solid rgb(250, 231, 14);
         #contactBox{
             display: block;
             #social{

@@ -121,7 +121,7 @@ const Contact = () => {
                 </div>
             </div>
             <div id="social2">
-                <h2 className="heading">Social Platforms</h2>
+                <h2 style={{color:"grey"}} className="heading">Connect With Me On Social Media</h2>
                 <div className="ul1"></div>
                 <ul>
                     <li><a href="mailto:rishabhyadav3602@gmail.com"><SiGmail className="fab" aria-hidden/></a></li>
@@ -131,6 +131,8 @@ const Contact = () => {
                     <li><a href="https://www.facebook.com/people/Rishabh-Yadav/100020567491022/"><SiFacebook className="fab" aria-hidden='true'/></a></li>
                     <li><a href="tel:7060476249"><MdPhone className="fab" aria-hidden='true'/></a></li>
                 </ul>
+                <h2 className="heading">Send A Message To Me</h2>
+                <div className="ul1"></div>
             </div>
             <div id='contactForm'>
                 <form className="form" ref={form} onSubmit={submitForm}>
