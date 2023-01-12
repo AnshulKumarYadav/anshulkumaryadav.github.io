@@ -108,16 +108,6 @@ const Contact = () => {
                         <a target='blank' href="https://www.instagram.com/rishuyadav3602">@rishuyadav3602</a>
                     </div>
                 </div>
-                <div id="social2">
-                <ul>
-                    <li><a href="mailto:rishabhyadav3602@gmail.com"><SiGmail className="fab" aria-hidden/></a></li>
-                    <li><a href="https://www.linkedin.com/in/anshul-kumar-yadav/"><SiLinkedin className="fab" aria-hidden/></a></li>
-                    <li><a href="https://github.com/AnshulKumarYadav"><SiGithub className="fab" aria-hidden/></a></li>
-                    <li><a href="https://www.instagram.com/rishuyadav3602"><SiInstagram className="fab" aria-hidden/></a></li>
-                    <li><a href="https://www.facebook.com/people/Rishabh-Yadav/100020567491022/"><SiFacebook className="fab" aria-hidden='true'/></a></li>
-                    <li><a href="tel:7060476249"><MdPhone className="fab" aria-hidden='true'/></a></li>
-                </ul>
-                </div>
                 <div className="socialBox">
                     <div className="socialIconLink">
                         <a target='blank' href="https://twitter.com/RISHABH48133056">
@@ -129,6 +119,18 @@ const Contact = () => {
                         <a target='blank' href="https://twitter.com/RISHABH48133056">@RISHABH48133056</a>
                     </div>
                 </div>
+            </div>
+            <div id="social2">
+                <h2 className="heading">Social Platforms</h2>
+                <div className="ul1"></div>
+                <ul>
+                    <li><a href="mailto:rishabhyadav3602@gmail.com"><SiGmail className="fab" aria-hidden/></a></li>
+                    <li><a href="https://www.linkedin.com/in/anshul-kumar-yadav/"><SiLinkedin className="fab" aria-hidden/></a></li>
+                    <li><a href="https://github.com/AnshulKumarYadav"><SiGithub className="fab" aria-hidden/></a></li>
+                    <li><a href="https://www.instagram.com/rishuyadav3602"><SiInstagram className="fab" aria-hidden/></a></li>
+                    <li><a href="https://www.facebook.com/people/Rishabh-Yadav/100020567491022/"><SiFacebook className="fab" aria-hidden='true'/></a></li>
+                    <li><a href="tel:7060476249"><MdPhone className="fab" aria-hidden='true'/></a></li>
+                </ul>
             </div>
             <div id='contactForm'>
                 <form className="form" ref={form} onSubmit={submitForm}>
