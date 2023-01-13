@@ -20,7 +20,7 @@ function App() {
     setTimeout(()=>{
       container.style.display = 'none';
       setLoading(false);
-    },5000)
+    },2000)
   }
 
   return (

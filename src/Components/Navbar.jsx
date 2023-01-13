@@ -25,6 +25,7 @@ import "./Navbar.css";
 import {  FaHome, FaList, FaProjectDiagram, FaUserAlt } from 'react-icons/fa';
 import {IoIosChatboxes} from 'react-icons/io';
 import Resume from "./Resume";
+import ColorPallete from "./ColorPallete";
 
 
 
@@ -34,7 +35,7 @@ export default function Navbar() {
   return (
     <div id="navFix">
       <Box
-        bg={useColorModeValue("gray.100", "gray.900")}
+        bg={useColorModeValue("gray.100", "blue.800")}
         px={9}
         width={["100%"]}
       >
@@ -48,37 +49,37 @@ export default function Navbar() {
             <HStack spacing={8} alignItems={"center"}>
               <HStack
                 as={"nav"}
-                spacing={4}
-                display={{ base: "none", md: "flex" }}
+                spacing={12}
+                display={{ base: "none", md: "flex",justifyContent: "space-around" }}
                 id="myDIV"
               >
-                <Button leftIcon={<FaHome/>} className="btnRes">
+                <Button variant='link' colorScheme='gray.900' leftIcon={<FaHome/>} className="btnRes">
                   <a href="#Home">
                     {" "}
                     <b>Home</b>
                   </a>
                 </Button>
 
-                <Button leftIcon={<FaUserAlt/>} className="btnRes">
+                <Button variant='link' colorScheme='gray.900' leftIcon={<FaUserAlt/>} className="btnRes">
                   <a href="#About">
                     <b>About</b>
                   </a>
                 </Button>
 
-                <Button leftIcon={<FaList/>} className="btnRes">
+                <Button variant='link' colorScheme='gray.900' leftIcon={<FaList/>} className="btnRes">
                   <a href="#Skills">
                     {" "}
                     <b>Skills</b>
                   </a>
                 </Button>
 
-                <Button leftIcon={<FaProjectDiagram/>} className="btnRes">
+                <Button variant='link' colorScheme='gray.900' leftIcon={<FaProjectDiagram/>} className="btnRes">
                   <a href="#Projects">
                     <b>Projects</b>
                   </a>
                 </Button>
 
-                <Button leftIcon={<IoIosChatboxes/>} className="btnRes">
+                <Button variant='link' colorScheme='gray.900' leftIcon={<IoIosChatboxes/>} className="btnRes">
                   <a href="#Contact">
                     <b>Contact</b>
                   </a>
@@ -91,6 +92,7 @@ export default function Navbar() {
               <Button onClick={toggleColorMode}>
                 {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
               </Button>
+              <ColorPallete/>
               <Resume/>
             </Stack>
           </Flex>
