@@ -1,6 +1,6 @@
 #Projects{
     width: 100%;
-    height: 130vh;
+    height: auto;
     padding-left: 2.5rem;
     // border: 1px solid teal;
 }
@@ -102,20 +102,12 @@
   }
 
   @media only screen and (max-width:1000px) {
-    #Projects{
-      height: 200vh;
-      // border: 1px solid red;
-    }
     #projectItem{
       grid-template-columns: repeat(2,1fr);
       margin-top: 10%;
     }
   }
   @media only screen and (max-width:662px) {
-    #Projects{
-      height: 400vh;
-      // border: 1px solid red;
-    }
     #projectItem{
       grid-template-columns: repeat(1,1fr);
       .container{
@@ -127,9 +119,7 @@
   }
 
   @media only screen and (max-width:425px) {
-    #Projects{
-      height: 180vh;
-    }
+    
     #projectItem{
       grid-template-columns: repeat(1,1fr);
       .container{

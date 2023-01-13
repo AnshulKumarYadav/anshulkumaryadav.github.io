@@ -1,12 +1,12 @@
 #Skills{
     width: 100%;
-    height: 120vh;
+    height: auto;
     padding-left: 2.5rem;
     // border: 1px solid teal;
 
     .skillBoxes{
         width: 80%;
-        height: 80vh;
+        height: auto;
         margin: auto;
         margin-top: 2rem;
         display: grid;
@@ -42,7 +42,6 @@
 
     #Skills
     {
-        height: 150vh;
         .skillBoxes{
            grid-template-columns: repeat(5,1fr);
         }
@@ -54,7 +53,6 @@
 
     #Skills
     {
-        height: 200vh;
         .skillBoxes{
            grid-template-columns: repeat(4,1fr);
         }
@@ -66,7 +64,6 @@
 
     #Skills
     {
-        height: 200vh;
         .skillBoxes{
            grid-template-columns: repeat(2,1fr);
         }
