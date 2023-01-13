@@ -7,20 +7,32 @@ import Home from './Pages/Home';
 import Skills from './Pages/Skiils';
 import Projects from './Pages/Projects';
 import Footer from './Pages/Footer';
+import { useState } from 'react';
 
 
 
 function App() {
+
+  const [loading,setLoading] = useState(true);
+  const container = document.getElementById("container-section");
+  if(container)
+  {
+    setTimeout(()=>{
+      container.style.display = 'none';
+      setLoading(false);
+    },5000)
+  }
+
   return (
-    <div className="App">
-      <Navbar />
-      <Home/>
-      <About />
-      <Skills />
-      <Projects/>
-      <Contact/>
-      <Footer/>
-    </div>
+    !loading && (<div className="App">
+    <Navbar />
+    <Home/>
+    <About />
+    <Skills />
+    <Projects/>
+    <Contact/>
+    <Footer/>
+  </div>)
   );
 }
 

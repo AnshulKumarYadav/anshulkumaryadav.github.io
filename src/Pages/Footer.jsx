@@ -3,6 +3,7 @@ import '../Styles/Footer..scss';
 
 export default function Footer() {
   return (
+    <>
     <div id='Footer'>
          <h2>Anshul Kumar Yadav</h2>
          <div className="line"></div>
@@ -16,5 +17,6 @@ export default function Footer() {
          <div className="line"></div>
          <p>© 2023 copyright all right reserved</p>
     </div>
+    </>
   )
 }
