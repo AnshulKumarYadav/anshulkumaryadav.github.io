@@ -25,7 +25,6 @@ import "./Navbar.css";
 import {  FaHome, FaList, FaProjectDiagram, FaUserAlt } from 'react-icons/fa';
 import {IoIosChatboxes} from 'react-icons/io';
 import Resume from "./Resume";
-import ColorPallete from "./ColorPallete";
 
 
 

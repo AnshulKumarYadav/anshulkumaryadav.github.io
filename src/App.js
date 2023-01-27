@@ -8,14 +8,10 @@ import Skills from './Pages/Skiils';
 import Projects from './Pages/Projects';
 import Footer from './Pages/Footer';
 import { useState } from 'react';
-import ThemeAndColor from './Components/ThemeAndColor';
 import { Button , useColorMode } from '@chakra-ui/react';
 import {
   MoonIcon,
   SunIcon,
-  HamburgerIcon,
-  CloseIcon,
-  AddIcon,
 } from "@chakra-ui/icons";
 
 
@@ -34,7 +30,6 @@ function App() {
     !loading && (<div className="App">
     <Navbar />
     <Home/>
-    <ThemeAndColor/>
     <Button id='themeMode' onClick={toggleColorMode}>{colorMode==='dark'?<SunIcon/>:<MoonIcon/>}</Button>
     <About />
     <Skills />

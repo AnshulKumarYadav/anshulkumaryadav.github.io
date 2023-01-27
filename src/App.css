@@ -1,6 +1,4 @@
-:root{
-  --bgColor : pink;
-}
+
 .heading{
   font-size: 40px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -10,21 +8,21 @@
 .ul1{
   width:15%;
   height:10px;
-  background: var(--bgColor);
+  background: var(--skin-color);
 }
 
 .ul2{
   width:10%;
   height:7px;
   margin:5px 0px 5px 0px;
-  background: var(--bgColor);
+  background: var(--skin-color);
 }
 
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
     scrollbar-width: auto;
-    scrollbar-color: --bgColor #ffffff;
+    scrollbar-color: var(--skin-color) #ffffff;
   }
 
   /* Chrome, Edge, and Safari */
@@ -37,25 +35,24 @@
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: var(--bgColor);
+    background-color: var(--skin-color);
     border-radius: 10px;
     border: 3px solid #ffffff;
   }
 
-
- #themeColor{
-    position: fixed;
-    top: 100px;
-    right: 10px;
-    width: 50px;
-    height: 50px;
- }
+  .typeAnimation{
+    color: var(--skin-color);
+  }
 
  #themeMode{
   position: fixed;
-  top: 160px;
-  right: 10px;
-  width: 50px;
-  height: 50px;
-
+  top: 140px;
+  right: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--bg-black-50);
+  background-color: var(--bg-black-100);
+  color: var(--text-black-900);
+  font-weight: bold;
  }

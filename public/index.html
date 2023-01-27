@@ -24,6 +24,24 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!--------------------- style-switcher ------------------------->
+<link rel="stylesheet" href="./skin/color-1.css" class="alternate-style" title="color-1" disabled>
+<link rel="stylesheet" href="./skin/color-2.css" class="alternate-style" title="color-2" disabled>
+<link rel="stylesheet" href="./skin/color-3.css" class="alternate-style" title="color-3" disabled>
+<link rel="stylesheet" href="./skin/color-4.css" class="alternate-style" title="color-4" disabled>
+<link rel="stylesheet" href="./skin/color-5.css" class="alternate-style" title="color-5" disabled>
+<link rel="stylesheet" href="./skin/color-6.css" class="alternate-style" title="color-6" disabled>
+<link rel="stylesheet" href="./skin/color-7.css" class="alternate-style" title="color-7" disabled>
+<link rel="stylesheet" href="./skin/color-8.css" class="alternate-style" title="color-8" disabled>
+<link rel="stylesheet" href="./skin/color-9.css" class="alternate-style" title="color-9" disabled>
+<link rel="stylesheet" href="./skin/color-10.css" class="alternate-style" title="color-10" disabled>
+<link rel="stylesheet" href="./skin/color-11.css" class="alternate-style" title="color-11" disabled>
+<link rel="stylesheet" href="./skin/color-12.css" class="alternate-style" title="color-12" disabled>
+    
+    <link rel="stylesheet" href="./Style-Switcher.css">
+<!-- --------------------------------------------------------- -->
+
     <title>Anshul | Software Developer</title>
     <link rel="stylesheet" href="Loader.css">
   </head>
@@ -56,5 +74,34 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
     </div>
+
+    <!-- ===== Style Switcher Start ===== -->
+  <div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin"></i>
+      <!-- <i class="fas fa-palette fa-spin"></i> -->
+    </div>
+    
+    <h4>Theme Colors</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      <span class="color-6" onclick="setActiveStyle('color-6')"></span>
+      <span class="color-7" onclick="setActiveStyle('color-7')"></span>
+      <span class="color-8" onclick="setActiveStyle('color-8')"></span>
+      <span class="color-9" onclick="setActiveStyle('color-9')"></span>
+      <span class="color-10" onclick="setActiveStyle('color-10')"></span>
+      <span class="color-11" onclick="setActiveStyle('color-11')"></span>
+      <span class="color-12" onclick="setActiveStyle('color-12')"></span>
+    </div>
+    </div>
+  
+  </div>
+  <!-- ===== Style Switcher End ===== -->
+
   </body>
+  <script src="./style-switcher.js"></script>
 </html>
