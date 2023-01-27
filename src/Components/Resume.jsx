@@ -28,7 +28,7 @@ export default function Resume() {
   };
   return (
     <>
-       <Button colorScheme='blue' variant='solid' leftIcon={<IoIosDocument/>} onClick={onOpen}>Resume</Button>
+       <Button className='resumeButton' colorScheme='blue' variant='solid' leftIcon={<IoIosDocument/>} onClick={onOpen}>Resume</Button>
 
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />

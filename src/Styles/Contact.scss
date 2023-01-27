@@ -230,6 +230,10 @@
             input::placeholder{
                 color: #111;
             }
+            input:focus{
+                outline: none;
+                background-color: none;
+            }
         }
 
         textarea{
@@ -246,6 +250,9 @@
         }
         textarea::placeholder{
             color: #111;
+        }
+        textarea:focus{
+            outline: none;
         }
 
         #submit{

@@ -44,13 +44,13 @@ export default function Navbar() {
             <Name mode={colorMode} />
           </HStack>
 
-          <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
+          <Flex h={16} alignItems={"center"} justifyContent={"space-around"}>
            
             <HStack spacing={8} alignItems={"center"}>
               <HStack
                 as={"nav"}
                 spacing={12}
-                display={{ base: "none", md: "flex",justifyContent: "space-around" }}
+                display={{ base: "none", md: "flex"}}
                 id="myDIV"
               >
                 <Button variant='link' colorScheme='gray.900' leftIcon={<FaHome/>} className="btnRes">
@@ -88,11 +88,7 @@ export default function Navbar() {
             </HStack>
           </Flex>
           <Flex alignItems={"center"}>
-            <Stack direction={"row"} spacing={7}>
-              <Button onClick={toggleColorMode}>
-                {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
-              </Button>
-              <ColorPallete/>
+            <Stack direction={"row"} spacing={2}>
               <Resume/>
             </Stack>
           </Flex>
@@ -208,6 +204,7 @@ export default function Navbar() {
                     <b>Contact</b>
                   </a>
                 </Button>
+                
               </Stack>
             </Box>
           ) : null}

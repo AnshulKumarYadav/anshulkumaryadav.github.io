@@ -7,6 +7,7 @@ import blob from '../assets/blob.svg';
 import blob2 from '../assets/blob2.svg';
 import Resume from "../Components/Resume";
 
+
 const Home = () => {
   return (
     <div id="Home">

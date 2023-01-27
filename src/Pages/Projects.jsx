@@ -26,8 +26,9 @@ const Projects = () => {
                     <h3>Backend App</h3>
                     <p>Redbus is a bus ticket booking app where we book a ticket with a particular sourct station to destination station.</p>
                     <div>
-                        <FaEye fontSize='30px'/>
-                        <FaGithub fontSize='30px'/>
+                        <a target='blank' href="http://github.com/AnshulKumarYadav/redbus">
+                          <FaGithub fontSize='30px'/>
+                        </a>
                     </div>
                     <h4>TeckStacks</h4>
                     <div className="techStacks">
@@ -50,8 +51,9 @@ const Projects = () => {
                     <h3>Backend App</h3>
                     <p>A app where we can buy products.In this project we implement RestFull Api based on springboot.</p>
                     <div>
-                        <FaEye fontSize='30px'/>
-                        <FaGithub fontSize='30px'/>
+                        <a target='blank' href="https://github.com/AnshulKumarYadav/online-shopping-app-">
+                          <FaGithub fontSize='30px'/>
+                        </a>
                     </div>
                     <h4>TechStacks</h4>
                     <div className="techStacks">
@@ -74,8 +76,12 @@ const Projects = () => {
                     <h3>Fronted App</h3>
                     <p>A wheather app where we can see the weather of a city by searching or by giving location permission and here we can also see the 7 days forcast.</p>
                     <div>
-                        <FaEye fontSize='30px'/>
-                        <FaGithub fontSize='30px'/>
+                        <a target='blank' href="https://anshulkumaryadav.github.io/weatherApp/">
+                            <FaEye fontSize='30px'/>
+                        </a>
+                        <a target='blank' href="https://github.com/AnshulKumarYadav/weatherApp">
+                          <FaGithub fontSize='30px'/>
+                        </a>
                     </div>
                     <h4>TechStacks</h4>
                     <div className="techStacks">
@@ -97,8 +103,12 @@ const Projects = () => {
                     <h3>Frontend App</h3>
                     <p>This app is useful for the whom who wants to know the reciepe for the delicious food . </p>
                     <div>
-                        <FaEye fontSize='30px'/>
-                        <FaGithub fontSize='30px'/>
+                        <a target='blank' href="https://anshulkumaryadav.github.io/foodyShop/">
+                            <FaEye fontSize='30px'/>
+                        </a>
+                        <a target='blank' href="https://github.com/AnshulKumarYadav/foodyShop">
+                         <FaGithub fontSize='30px'/>
+                        </a>
                     </div>
                     <h4>TechStacks</h4>
                     <div className="techStacks">
@@ -120,8 +130,12 @@ const Projects = () => {
                     <h3>Fronted App</h3>
                     <p>BobbiBrown providing branded cosmetics products online, makeup kit online. In this project, I was leading my team and majorly worked on Home page, Product page, Signin functionality, Cart page, Wishlist and Payment page.</p>
                     <div>
-                        <FaEye fontSize='30px'/>
-                        <FaGithub fontSize='30px'/>
+                        <a target='blank' href="https://anshulkumaryadav.github.io/BobbiBrown/">
+                            <FaEye fontSize='30px'/>
+                        </a>
+                        <a target='blank' href="https://github.com/AnshulKumarYadav/BobbiBrown">
+                            <FaGithub fontSize='30px'/>
+                        </a>
                     </div>
                     <h4>TechStacks</h4>
                     <div className="techStacks">
@@ -142,8 +156,12 @@ const Projects = () => {
                     <h3>Fronted App</h3>
                     <p>A frontend clone of YouTube, where in the home page user will find popular videos of YouTube and also can search for the desired videos it will show all the videos related to search on the result page.</p>
                     <div>
-                        <FaEye fontSize='30px'/>
-                        <FaGithub fontSize='30px'/>
+                        <a target='blank' href="https://anshulkumaryadav.github.io/youtube/">
+                            <FaEye fontSize='30px'/>
+                        </a>
+                        <a target='blank' href="https://github.com/AnshulKumarYadav/youtube">
+                            <FaGithub fontSize='30px'/>
+                        </a>
                     </div>
                     <h4>TechStacks</h4>
                     <div className="techStacks">

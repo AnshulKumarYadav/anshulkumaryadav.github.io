@@ -11,27 +11,43 @@ import {
     IconButton,
     Button,
   } from '@chakra-ui/react'
-  import { FaPalette } from "react-icons/fa";
-
+  import '../Styles/ColorPallete.scss';
+import { SettingsIcon } from '@chakra-ui/icons';
 export default function ColorPallete() {
+
+  let setColors = () => {
+
+  }
+
     const { isOpen, onOpen, onClose } = useDisclosure()
+
   return (
     <div>
-      <IconButton onClick={onOpen} icon={<FaPalette/>}  _hover={{color:"pink.400"}} />
+      <IconButton id='themeColor' onClick={onOpen}  _hover={{color:"pink.400"}} icon={<SettingsIcon className='settingSpin'/>} />
         <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent>
-            <ModalHeader>Modal Title</ModalHeader>
+            <ModalHeader>Colors</ModalHeader>
             <ModalCloseButton />
-            <ModalBody>
-            
+            <ModalBody className='modalBody'>
+                <div className="colorDiv" onClick={setColors}></div>
+                <div className="colorDiv"></div>
+                <div className="colorDiv"></div>
+                <div className="colorDiv"></div>
+                <div className="colorDiv"></div>
+                <div className="colorDiv"></div>
+                <div className="colorDiv"></div>
+                <div className="colorDiv"></div>
+                <div className="colorDiv"></div>
+                <div className="colorDiv"></div>
+                <div className="colorDiv"></div>
+                <div className="colorDiv"></div>
             </ModalBody>
 
             <ModalFooter>
             <Button colorScheme='blue' mr={3} onClick={onClose}>
                 Close
             </Button>
-            <Button variant='ghost'>Secondary Action</Button>
             </ModalFooter>
         </ModalContent>
         </Modal>
