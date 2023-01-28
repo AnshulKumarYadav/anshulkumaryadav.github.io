@@ -1,6 +1,6 @@
 import React from "react";
 import {SiFacebook, SiGithub, SiGmail, SiInstagram, SiLinkedin, SiTwitter, SiWhatsapp} from 'react-icons/si';
-import {FaBookReader, FaLinkedin, FaUserAlt} from 'react-icons/fa';
+import {FaBookReader, FaInstagram, FaLinkedin, FaLinkedinIn, FaUserAlt} from 'react-icons/fa';
 import {MdMail, MdPhone} from 'react-icons/md';
 import '../Styles/Contact.scss';
 import { useRef } from "react";
@@ -56,7 +56,7 @@ const Contact = () => {
                 <div className="socialBox">
                     <div className="socialIconLink">
                         <a href="mailto:rishabhyadav3602@gmail.com">
-                           <SiGmail className="icons"/>
+                           <SiGmail className="icons" color="#dd4b39"/>
                         </a>
                     </div>
                     <div className="social-details">
@@ -67,7 +67,7 @@ const Contact = () => {
                 <div className="socialBox">
                     <div className="socialIconLink">
                         <a target='blank' href="https://www.linkedin.com/in/anshul-kumar-yadav/">
-                            <FaLinkedin className="icons" />   
+                            <FaLinkedinIn className="icons" color="#0A66C2" />   
                         </a>
                     </div>
                     <div className="social-details">
@@ -89,7 +89,7 @@ const Contact = () => {
                 <div className="socialBox">
                     <div className="socialIconLink">
                     <a target='blank' href="https://www.facebook.com/people/Rishabh-Yadav/100020567491022/">
-                        <SiFacebook className="icons" />
+                        <SiFacebook className="icons" color="#3b5998" />
                     </a>
                     </div>
                     <div className="social-details">
@@ -100,7 +100,9 @@ const Contact = () => {
                 <div className="socialBox">
                     <div className="socialIconLink" >
                     <a target='blank' href="https://www.instagram.com/rishuyadav3602">
-                        <SiInstagram className="icons" />
+                        <FaInstagram className="icons"
+                            color= "#d6249f"
+                        />
                     </a>
                     </div>
                     <div className="social-details">
@@ -111,7 +113,7 @@ const Contact = () => {
                 <div className="socialBox">
                     <div className="socialIconLink">
                         <a target='blank' href="https://twitter.com/RISHABH48133056">
-                            <SiTwitter className="icons" />
+                            <SiTwitter className="icons" color="#1DA1F2" />
                         </a>
                     </div>
                     <div className="social-details">
