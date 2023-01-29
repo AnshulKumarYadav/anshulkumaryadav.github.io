@@ -7,18 +7,28 @@
 }
 
 #About{
-    width: 100%;
-    height: auto;
-    padding: 0rem 0rem 0rem 2.5rem;
+    width: 95%;
+    height: 400px ;
+    margin: auto;
+    // padding: 0rem 0rem 0rem 2.5rem;
     display: flex;
     justify-content: space-between;
+    // border: 1px solid red;
+
+    &>div{
+        // border: 1px solid blue;
+    }
 
     .img{
-        width: 30%;
+        width: 40%;
         height: 100%;
-        padding: 2rem;
+        // padding: 2rem;
         
         img{
+            width: 70%;
+            height: 90%;
+            margin: auto;
+            margin-top: 5%;
             border-radius: 10px;
             box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
             background-color: var(--skin-color) ;
@@ -29,12 +39,36 @@
     .about-content{
         width: 60%;
         height: 100%;
-        
+        h3{
+            font-size: 25px;
+            font-weight: bold;
+
+        }
         p{
+            
             font-family: 'Times New Roman', Times, serif;
         }
         .ul2{
             margin-bottom: 2rem;
+        }
+        .about-Details{
+            &>div:nth-child(1)
+            {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+
+                a,p{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                
+                a:hover{
+                    text-decoration: underline;
+                }
+
+            }
         }
         
     }
@@ -97,105 +131,24 @@
     }
 }
 
-@media only screen and (max-width:1250px) {
-    #education{
-        margin-top: 10%;
-    }
-    
-}
 
-@media only screen and (max-width:975px) {
+@media only screen and (max-width:765px) {
     #About{
+        flex-direction: column-reverse;
+        height: auto;
+
         .img{
-            width: 20%;
-            height: 100%;
-            padding: 10rem 0rem 0rem 0rem;
-        }
-        .about-content{
-            width: 70%;
-        }
-        p{
-            font-size: 15px;
-        }
-    }
-    
-}
-
-@media only screen and (max-width:785px) {
-    #About{
-        padding-left: 1rem;
-        .img{
-            width: 20%;
-            height: 100%;
-            padding: 7rem 1rem 0rem 0rem;
-           
-        }
-        .about-content{
-            width: 80%;
-        }
-        p{
-            font-size: 13px;
-        }
-    }
-
-    #education{
-        .college{
-            display: block;
-
-            .edu_cont{
-                width: 80%;
-                margin: auto;
-                margin-bottom: 2rem;
-            }
-
-        }
-    }
-    
-}
-
-@media only screen and (max-width:604px) {
-    #education{
-        .college{
-            .edu_cont{
-                .ed-name{
-                    h2{
-                        font-size: 14px;
-                    }
-                    p{
-                        font-size: 12px;
-                    }
-                }
+            width: 100%;
+            img{
+                width: 40%;
             }
         }
-    }
-    
-}
-
-@media only screen and (max-width:452px) {
-
-    #About{
-        margin-bottom: 5rem;
-        display: block;
 
         .about-content{
-            height: 50%;
+            width: 100%;
         }
 
+
+        
     }
-    #education{
-        .college{
-            .edu_cont{
-                height: 25vh;
-                .ed-name{
-                    h2{
-                        font-size: 12px;
-                    }
-                    p{
-                        font-size: 11px;
-                    }
-                }
-            }
-        }
-    }
-    
 }

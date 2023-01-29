@@ -27,47 +27,47 @@ const Home = () => {
             </div>
             <p>Passionate Software Developer with web development technologies. Skilled, collaborative and attentive developer with a drive to develop the most relevant products. Always looking forward to learning something new to strengthen skills learned.</p>
         </div>
-        <div id="homeSocial">
-          <div className="socialMedia">
-            <div>
-              <a target='blank' href="mailto:rishabhyadav3602@gmail.com">
-                <SiGmail className="mediaIcons"/>
-              </a>
-            </div>
-            <div>
-              <a target='blank' href="https://www.linkedin.com/in/anshul-kumar-yadav/">
-                <FaLinkedinIn className="mediaIcons"/>
-              </a>
-            </div>
-            <div>
-              <a target='blank' href="https://github.com/AnshulKumarYadav">
-                <FaGithub className="mediaIcons"/>
-              </a>
-            </div>
-            <div>
-              <a target='blank' href="https://twitter.com/RISHABH48133056">
-                <SiTwitter className="mediaIcons"/>
-              </a>
-            </div>
-            <div>
-              <a target='blank' href="https://www.instagram.com/rishuyadav3602/">
-                <FaInstagram className="mediaIcons"/>
-              </a>
-            </div>
-            <div>
-              <a target='blank' href="https://www.facebook.com/people/Rishabh-Yadav/100020567491022/">
-                <FaFacebookF className="mediaIcons"/>
-              </a>
-            </div>
+      <div id="homeSocial">
+        <div className="socialMedia">
+          <div>
+            <a target='blank' href="mailto:rishabhyadav3602@gmail.com">
+              <SiGmail className="mediaIcons"/>
+            </a>
           </div>
           <div>
-            <Resume/>
-            <div class="wrapper">
-              <a href="#Contact"><span>Hire Me</span></a>
-            </div>
+            <a target='blank' href="https://www.linkedin.com/in/anshul-kumar-yadav/">
+              <FaLinkedinIn className="mediaIcons"/>
+            </a>
           </div>
-
+          <div>
+            <a target='blank' href="https://github.com/AnshulKumarYadav">
+              <FaGithub className="mediaIcons"/>
+            </a>
+          </div>
+          <div>
+            <a target='blank' href="https://twitter.com/RISHABH48133056">
+              <SiTwitter className="mediaIcons"/>
+            </a>
+          </div>
+          <div>
+            <a target='blank' href="https://www.instagram.com/rishuyadav3602/">
+              <FaInstagram className="mediaIcons"/>
+            </a>
+          </div>
+          <div>
+            <a target='blank' href="https://www.facebook.com/people/Rishabh-Yadav/100020567491022/">
+              <FaFacebookF className="mediaIcons"/>
+            </a>
+          </div>
         </div>
+        <div>
+          <Resume/>
+          <div class="wrapper">
+            <a href="#Contact"><span>Hire Me</span></a>
+          </div>
+        </div>
+
+      </div>
     </div>
   );
 };
