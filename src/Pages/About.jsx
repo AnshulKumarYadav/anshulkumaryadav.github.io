@@ -70,7 +70,7 @@ const About = () => {
                   </div>
                   <div className="ed-name">
                       <h2>Diploma in Electrical Engineering</h2>
-                      <p>Government Polytechnic College,Hapur,Uttar Pradesh</p>
+                      <p>Government Polytechnic College,Hapur,U.P</p>
                       <Certificate certificate={DiplomaCertificate}/>
                   </div>
               </div>
