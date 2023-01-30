@@ -62,7 +62,7 @@ const Home = () => {
         </div>
         <div>
           <Resume/>
-          <div class="wrapper">
+          <div className="wrapper">
             <a href="#Contact"><span>Hire Me</span></a>
           </div>
         </div>

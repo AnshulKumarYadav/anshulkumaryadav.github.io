@@ -4,11 +4,14 @@ import pic from '../assets/profilePic2.png';
 import Resume from "../Components/Resume";
 import MasaiCertificate from '../assets/MasaiCetificate.pdf';
 import DiplomaCertificate from '../assets/DiplomahCertificate.pdf';
-
 import Certificate from "../Components/Certificate";
 import { SiGmail } from "react-icons/si";
-import { FaPhone, FaPhoneAlt } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
+import ignou from '../assets/ignou.png';
+import masailogo from '../assets/masailogo.png';
+import mpslogo from '../assets/mps.jpeg'
+
 const About = () => {
   return (
     <div id="about-education">
@@ -54,13 +57,24 @@ const About = () => {
             <div className="ul2"></div>
           </div>
           <div className="college">
+          <div className="edu_cont">
+                  <div className="ed-img">
+                      <img src={ignou} alt="masaiLogo" />
+                  </div>
+                  <div className="ed-name">
+                      <h2>Bachelor's Of Computer Applications</h2>
+                      <p>Indira Ghandi National Open University</p>
+                      <p> January 2023 - Present</p>
+                  </div>
+              </div>
             <div className="edu_cont">
                   <div className="ed-img">
-                      <img src="https://www.masaischool.com/img/navbar/logo.svg" alt="masaiLogo" />
+                      <img src={masailogo} alt="masaiLogo" />
                   </div>
                   <div className="ed-name">
                       <h2>Web Development</h2>
                       <p>Masai School, Banglore,Karnataka</p>
+                      <p>January 2022 - November 2022</p>
                       <Certificate certificate={MasaiCertificate}/>
                   </div>
               </div>
@@ -71,6 +85,17 @@ const About = () => {
                   <div className="ed-name">
                       <h2>Diploma in Electrical Engineering</h2>
                       <p>Government Polytechnic College,Hapur,U.P</p>
+                      <p>August 2018 - October 2021</p>
+                      <Certificate certificate={DiplomaCertificate}/>
+                  </div>
+              </div>
+              <div className="edu_cont">
+                  <div className="ed-img">
+                      <img src={mpslogo} alt="masaiLogo" />
+                  </div>
+                  <div className="ed-name">
+                      <h2>High School (10th)</h2>
+                      <p>Marehra Public School,Marehra,Etah,U.P</p>
                       <Certificate certificate={DiplomaCertificate}/>
                   </div>
               </div>

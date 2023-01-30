@@ -15,11 +15,17 @@
         grid-gap: 2rem;
 
         .box{
-            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-            background-color: #fff;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+            background: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );;
             color: #111;
             border-radius: 10px;
             // border: 1px solid red;
+            padding: 0.5rem;
+            
+        }
+        .box:hover{
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            cursor: pointer;
         }
 
         img{
