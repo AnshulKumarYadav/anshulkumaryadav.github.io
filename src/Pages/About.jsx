@@ -11,6 +11,7 @@ import { MdLocationOn } from "react-icons/md";
 import ignou from '../assets/ignou.png';
 import masailogo from '../assets/masailogo.png';
 import mpslogo from '../assets/mps.jpeg'
+import blob from '../assets/blob.svg';
 
 const About = () => {
   return (
@@ -25,15 +26,18 @@ const About = () => {
             <h3>👤 Summary</h3>
             <p>➡️ I am a passionate software developer with web development technologies.</p>
 
-            <p>➡️ Currently pursuing web development course from Masai School and ready to work.</p>
+            <p>➡️Currently pursing Bachelor's Of Computer Applications from Indira Ghandi National Open University.</p>
 
-            <p>➡️ Have an experience of 1000+ hours of coding and 300+ hours of data sturctures and algorithms.</p> 
+            <p>➡️ I had pursued web development course from Masai School and ready to work.</p>
+
+            <p>➡️ Have an experience of 1000+ hours of coding and 500+ hours of data sturctures and algorithms.</p> 
 
             <p>➡️ 5 ⭐⭐⭐⭐⭐ problem solver on HackerRank.</p> 
 
             <p>➡️ Love to writing 👨‍💻 code and solve problem.</p> 
 
             <p>➡️ When I'm not at the keyboard, I like playing cricket and hanging out with friends.</p>
+
             <div style={{width:"90%",height:"1px",border:"2px dotted black",margin:"1rem"}}></div>
             <div className="about-Details">
               <div>
@@ -47,7 +51,8 @@ const About = () => {
             </div>
           </div>
           <div className="img">
-            <img src={pic} alt="pic" />
+            
+            <img className="profilePic" src={pic} alt="pic" />
           </div>
         </div>
         <div id="education">

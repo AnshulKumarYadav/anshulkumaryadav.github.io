@@ -13,6 +13,7 @@ import {
   MoonIcon,
   SunIcon,
 } from "@chakra-ui/icons";
+import Stats from './Pages/Stats';
 
 
 
@@ -36,6 +37,7 @@ function App() {
     <About />
     <Skills />
     <Projects/>
+    <Stats/>
     <Contact/>
     <Footer/>
   </div>)
