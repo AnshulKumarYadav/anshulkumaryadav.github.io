@@ -13,7 +13,7 @@ export default function Stats() {
         <div className="ul1"></div>
         <div className="ul2"></div>
       </div>
-        <h2>Achievements</h2>
+        <h2 className='workStatsTitle'>Achievements</h2>
       <div id='achievements'>
         <div className="hackerRank">
             <h2>HackerRank</h2>
@@ -35,6 +35,15 @@ export default function Stats() {
         </div>
 
       </div>
+      <h2 className="workStatsTitle">GitHub Statistics</h2>
+      <div id="github">
+        <img src="https://github-readme-stats.vercel.app/api?username=AnshulKumarYadav&theme=radical&show_icons=true&locale=en" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnshulKumarYadav&theme=radical"/>
+      </div>
+      <div className="githubActivity">
+        <img src="https://github-readme-activity-graph.cyclic.app/graph?username=AnshulKumarYadav"/>
+      </div>
+
     </div>
   )
 }
