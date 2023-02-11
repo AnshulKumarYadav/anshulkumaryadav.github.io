@@ -12,7 +12,7 @@
     }
 
     #achievements{
-        width: 60%;
+        width: 70%;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(1,250px);
@@ -78,4 +78,21 @@
         }
     }
 
+}
+
+@media only screen and (max-width:975px) {
+
+   #workStats{
+    #github{
+        display: block;
+        margin: auto;
+        width: 60%;
+        height: auto;
+        margin-bottom: 2rem;
+        img{
+            width: 100%;
+        }
+    }
+   }
+    
 }
