@@ -57,7 +57,7 @@ let projects = [
     },
     {
         image : redbus,
-        name : " Redbus - Bus Ticketing App ",
+        name : "BobbiBrown Website Clone ",
         type : "Backend App",
         description : " Redbus - Bus Ticketing App ",
         liveLink : "",
