@@ -33,7 +33,7 @@ let projects = [
     },
     {
         image : wheather,
-        name : " Redbus - Bus Ticketing App ",
+        name : " Wheather App ",
         type : "Backend App",
         description : " Redbus - Bus Ticketing App ",
         liveLink : "",
@@ -45,7 +45,7 @@ let projects = [
     },
     {
         image : foodyShop,
-        name : " Redbus - Bus Ticketing App ",
+        name : " Food Reciepe App ",
         type : "Backend App",
         description : " Redbus - Bus Ticketing App ",
         liveLink : "",
