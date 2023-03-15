@@ -21,7 +21,7 @@ let projects = [
     },
     {
         image : shoppingApp,
-        name : " Redbus - Bus Ticketing App ",
+        name : " Online Shopping App ",
         type : "Backend App",
         description : " Redbus - Bus Ticketing App ",
         liveLink : "",
