@@ -244,6 +244,7 @@ export default function Navbar() {
                   </a>
                 </Button>
                 <Button
+                // added skills
                   onClick={isOpen ? onClose : onOpen}
                   _hover={{
                     textShadow: "#FC0 1px 0 10px",
