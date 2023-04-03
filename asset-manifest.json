@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/React_Responsive_Portfolio/static/css/main.c072908f.css",
+    "main.js": "/React_Responsive_Portfolio/static/js/main.78756d93.js",
+    "static/js/787.bdb0affa.chunk.js": "/React_Responsive_Portfolio/static/js/787.bdb0affa.chunk.js",
+    "static/media/MasaiCetificate.pdf": "/React_Responsive_Portfolio/static/media/MasaiCetificate.bbcd1286e33c10359629.pdf",
+    "static/media/foodyShop.png": "/React_Responsive_Portfolio/static/media/foodyShop.5c1efc7cf6e8a352c83e.png",
+    "static/media/codingExperience.jpg": "/React_Responsive_Portfolio/static/media/codingExperience.d6756d8f85a8a959f650.jpg",
+    "static/media/wheather.png": "/React_Responsive_Portfolio/static/media/wheather.d020fd661b061862186d.png",
+    "static/media/DiplomahCertificate.pdf": "/React_Responsive_Portfolio/static/media/DiplomahCertificate.8eab41c59e5a657e02ac.pdf",
+    "static/media/profilePic2.png": "/React_Responsive_Portfolio/static/media/profilePic2.aafd866523a38f85e42b.png",
+    "static/media/Anshul_Kumar_Yadav.pdf": "/React_Responsive_Portfolio/static/media/Anshul_Kumar_Yadav.136bddfea046cda2530e.pdf",
+    "static/media/postman.png": "/React_Responsive_Portfolio/static/media/postman.91690925a2050c5fa76c.png",
+    "static/media/java.png": "/React_Responsive_Portfolio/static/media/java.2a1399f78477e0e27b8e.png",
+    "static/media/starhacker.png": "/React_Responsive_Portfolio/static/media/starhacker.2df45363eef56ff5cd05.png",
+    "static/media/ignou.png": "/React_Responsive_Portfolio/static/media/ignou.e2761ea9773b47d4d0fd.png",
+    "static/media/Logo-dark.png": "/React_Responsive_Portfolio/static/media/Logo-dark.8447fef0eee7a2c3e775.png",
+    "static/media/Logo.png": "/React_Responsive_Portfolio/static/media/Logo.03d3b6d02e2adcb9dea9.png",
+    "static/media/masailogo.png": "/React_Responsive_Portfolio/static/media/masailogo.37d2138983b009a395a4.png",
+    "static/media/maven.png": "/React_Responsive_Portfolio/static/media/maven.72e72f84e26d59dc012f.png",
+    "static/media/sqlstar.png": "/React_Responsive_Portfolio/static/media/sqlstar.b6245612d8c898195ed7.png",
+    "static/media/mysql.png": "/React_Responsive_Portfolio/static/media/mysql.83110f626cc9b15e3814.png",
+    "index.html": "/React_Responsive_Portfolio/index.html",
+    "static/media/logo.svg": "/React_Responsive_Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/blob.svg": "/React_Responsive_Portfolio/static/media/blob.52b27db9416da5d065a72aa6035d6598.svg",
+    "main.c072908f.css.map": "/React_Responsive_Portfolio/static/css/main.c072908f.css.map",
+    "main.78756d93.js.map": "/React_Responsive_Portfolio/static/js/main.78756d93.js.map",
+    "787.bdb0affa.chunk.js.map": "/React_Responsive_Portfolio/static/js/787.bdb0affa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c072908f.css",
+    "static/js/main.78756d93.js"
+  ]
+}
