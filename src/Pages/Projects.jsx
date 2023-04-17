@@ -115,13 +115,14 @@ let projects = [
 
 const Projects = () => {
   return (
-    <Box id="projects" p={"10"}>
+    <Box id="Projects" p={"10"}>
       <Heading mb={"5"}>Projects</Heading>
       <div className="ul1"></div>
       <div className="ul2"></div>
       <Grid
-        gridTemplateColumns="repeat(3,1fr)"
+        gridTemplateColumns={["repeat(1,auto)","repeat(1,auto)","repeat(2,auto)","repeat(3,auto)"]}
         gridTemplateRows="repeat(auto,auto)"
+        justifyContent={['center','center','space-between','space-between']}
         gap={"10"}
         mt={"10"}
         p={"5"}
