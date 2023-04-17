@@ -5,6 +5,7 @@ import sqlhacker from '../assets/sqlhacker.png';
 import javaStar from '../assets/starhacker.png';
 import sqlStar from '../assets/sqlstar.png';
 import codeExp from '../assets/codingExperience.jpg';
+import GithubCalendar from './GithubCalendar';
 export default function Stats() {
   return (
     <div id='workStats'>
@@ -35,15 +36,8 @@ export default function Stats() {
         </div>
 
       </div>
-      <h2 className="workStatsTitle">GitHub Statistics</h2>
-      <div id="github">
-        <img src="https://github-readme-stats.vercel.app/api?username=AnshulKumarYadav&theme=radical&show_icons=true&locale=en" />
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnshulKumarYadav&theme=radical"/>
-      </div>
-      <div className="githubActivity">
-        <img src="https://github-readme-activity-graph.cyclic.app/graph?username=AnshulKumarYadav"/>
-      </div>
-
+      <h2 className="workStatsTitle">GitHub Calender</h2>
+       <GithubCalendar/>
     </div>
   )
 }

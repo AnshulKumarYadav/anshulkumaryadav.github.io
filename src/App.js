@@ -14,6 +14,7 @@ import {
   SunIcon,
 } from "@chakra-ui/icons";
 import Stats from './Pages/Stats';
+import Education from './Pages/Education';
 
 
 
@@ -35,6 +36,7 @@ function App() {
     <Home/>
     <Button id='themeMode' onClick={toggleColorMode}>{colorMode==='dark'?<SunIcon/>:<MoonIcon/>}</Button>
     <About />
+    <Education/>
     <Skills />
     <Projects/>
     <Stats/>

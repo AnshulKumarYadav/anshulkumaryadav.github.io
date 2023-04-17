@@ -55,57 +55,6 @@ const About = () => {
             <img className="profilePic" src={pic} alt="pic" />
           </div>
         </div>
-        <div id="education">
-          <div id="heading">
-            <h2 className="heading">Education</h2>
-            <div className="ul1"></div>
-            <div className="ul2"></div>
-          </div>
-          <div className="college">
-          <div className="edu_cont">
-                  <div className="ed-img">
-                      <img src={ignou} alt="masaiLogo" />
-                  </div>
-                  <div className="ed-name">
-                      <h2>Bachelor's Of Computer Applications</h2>
-                      <p>Indira Ghandi National Open University</p>
-                      <p> January 2023 - Present</p>
-                  </div>
-              </div>
-            <div className="edu_cont">
-                  <div className="ed-img">
-                      <img src={masailogo} alt="masaiLogo" />
-                  </div>
-                  <div className="ed-name">
-                      <h2>Web Development</h2>
-                      <p>Masai School, Banglore,Karnataka</p>
-                      <p>January 2022 - November 2022</p>
-                      <Certificate certificate={MasaiCertificate}/>
-                  </div>
-              </div>
-              <div className="edu_cont">
-                  <div className="ed-img">
-                      <img src="https://gphindalpur.in/wp-content/uploads/2021/09/1logo.png" alt="masaiLogo" />
-                  </div>
-                  <div className="ed-name">
-                      <h2>Diploma in Electrical Engineering</h2>
-                      <p>Government Polytechnic College,Hapur,U.P</p>
-                      <p>August 2018 - October 2021</p>
-                      <Certificate certificate={DiplomaCertificate}/>
-                  </div>
-              </div>
-              <div className="edu_cont">
-                  <div className="ed-img">
-                      <img src={mpslogo} alt="masaiLogo" />
-                  </div>
-                  <div className="ed-name">
-                      <h2>High School (10th)</h2>
-                      <p>Marehra Public School,Marehra,Etah,U.P</p>
-                      <Certificate certificate={DiplomaCertificate}/>
-                  </div>
-              </div>
-          </div>
-        </div>
     </div>
   );
 };
