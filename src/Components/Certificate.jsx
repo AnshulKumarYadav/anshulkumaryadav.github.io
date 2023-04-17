@@ -33,7 +33,7 @@ export default function Certificate({certificate}) {
   };
   return (
     <>
-       <Button colorScheme='green' variant='solid' marginTop={1} leftIcon={<GrCertificate/>} onClick={onOpen}>Certificate</Button>
+       <Button color={'white'} bg={'#525CE5'} _hover={{bg:'#525CE5'}} variant='solid' marginTop={1} leftIcon={<GrCertificate bg={'white'}/>} onClick={onOpen}>Certificate</Button>
 
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
