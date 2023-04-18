@@ -22,15 +22,29 @@ import {
 import Name from "./Name";
 import "./Navbar.css";
 
-import {  FaHome, FaList, FaProjectDiagram, FaUserAlt } from 'react-icons/fa';
-import {IoIosChatboxes} from 'react-icons/io';
-import Resume from "./Resume";
-
-
+import { FaFileDownload, FaHome, FaList, FaProjectDiagram, FaUserAlt } from "react-icons/fa";
+import { IoIosChatboxes } from "react-icons/io";
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
+
+  const downloadAndOpenResume = () => {
+    let downloadLink = document.createElement("a");
+    downloadLink.href =
+      "https://drive.google.com/uc?export=download&id=14k8jyuzmjHquZP5SRLwy2WsW0keFespf";
+    downloadLink.download = "Anshul_Resume.pdf";
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    viewResume();
+    document.body.removeChild(downloadLink);
+  };
+
+  const viewResume = () => {
+    window.open(
+      "https://drive.google.com/file/d/14k8jyuzmjHquZP5SRLwy2WsW0keFespf/view?usp=sharing"
+    );
+  };
   return (
     <div id="navFix">
       <Box
@@ -44,41 +58,65 @@ export default function Navbar() {
           </HStack>
 
           <Flex h={16} alignItems={"center"} justifyContent={"space-around"}>
-           
             <HStack spacing={8} alignItems={"center"}>
               <HStack
                 as={"nav"}
                 spacing={12}
-                display={{ base: "none", md: "flex"}}
+                display={{ base: "none", md: "flex" }}
                 id="myDIV"
               >
-                <Button variant='link' colorScheme='gray.900' leftIcon={<FaHome/>} className="btnRes">
+                <Button
+                  variant="link"
+                  colorScheme="gray.900"
+                  leftIcon={<FaHome />}
+                  className="btnRes"
+                >
                   <a href="#Home">
                     {" "}
                     <b>Home</b>
                   </a>
                 </Button>
 
-                <Button variant='link' colorScheme='gray.900' leftIcon={<FaUserAlt/>} className="btnRes">
+                <Button
+                  variant="link"
+                  colorScheme="gray.900"
+                  leftIcon={<FaUserAlt />}
+                  className="btnRes"
+                >
                   <a href="#About">
                     <b>About</b>
                   </a>
                 </Button>
 
-                <Button variant='link' colorScheme='gray.900' leftIcon={<FaList/>} className="btnRes">
+                <Button
+                  variant="link"
+                  colorScheme="gray.900"
+                  leftIcon={<FaList />}
+                  className="btnRes"
+                >
                   <a href="#Skills">
                     {" "}
                     <b>Skills</b>
                   </a>
                 </Button>
 
-                <Button variant='link' colorScheme='gray.900' leftIcon={<FaProjectDiagram/>} className="btnRes">
+                <Button
+                  variant="link"
+                  colorScheme="gray.900"
+                  leftIcon={<FaProjectDiagram />}
+                  className="btnRes"
+                >
                   <a href="#Projects">
                     <b>Projects</b>
                   </a>
                 </Button>
 
-                <Button variant='link' colorScheme='gray.900' leftIcon={<IoIosChatboxes/>} className="btnRes">
+                <Button
+                  variant="link"
+                  colorScheme="gray.900"
+                  leftIcon={<IoIosChatboxes />}
+                  className="btnRes"
+                >
                   <a href="#Contact">
                     <b>Contact</b>
                   </a>
@@ -88,7 +126,15 @@ export default function Navbar() {
           </Flex>
           <Flex alignItems={"center"}>
             <Stack direction={"row"} spacing={2}>
-              <Resume/>
+              <Button
+                color={"white"}
+                bg="#525CE5"
+                _hover={{ bg: "#5964F3" }}
+                leftIcon={<FaFileDownload />}
+                onClick={downloadAndOpenResume}
+              >
+                ViewAndDownload Resume
+              </Button>
             </Stack>
           </Flex>
           <IconButton
@@ -101,42 +147,50 @@ export default function Navbar() {
           {isOpen ? (
             <Box pb={4} display={{ md: "none" }}>
               <Stack as={"nav"} spacing={4}>
-                <Button  onClick={isOpen ? onClose : onOpen}
+                <Button
+                  onClick={isOpen ? onClose : onOpen}
                   _hover={{
                     textShadow: "#FC0 1px 0 10px",
                     transform: "scale(1.2)",
-                  }}>
+                  }}
+                >
                   <a href="#Home">
                     {" "}
                     <b>Home</b>
                   </a>
                 </Button>
-                <Button  onClick={isOpen ? onClose : onOpen}
+                <Button
+                  onClick={isOpen ? onClose : onOpen}
                   _hover={{
                     textShadow: "#FC0 1px 0 10px",
                     transform: "scale(1.2)",
-                  }}>
+                  }}
+                >
                   <a href="#Home">
                     {" "}
                     <b>Home</b>
                   </a>
                 </Button>
 
-                <Button  onClick={isOpen ? onClose : onOpen}
+                <Button
+                  onClick={isOpen ? onClose : onOpen}
                   _hover={{
                     textShadow: "#FC0 1px 0 10px",
                     transform: "scale(1.2)",
-                  }}>
+                  }}
+                >
                   <a href="#Home">
                     {" "}
                     <b>Home</b>
                   </a>
                 </Button>
-                <Button  onClick={isOpen ? onClose : onOpen}
+                <Button
+                  onClick={isOpen ? onClose : onOpen}
                   _hover={{
                     textShadow: "#FC0 1px 0 10px",
                     transform: "scale(1.2)",
-                  }}>
+                  }}
+                >
                   <a href="#Home">
                     {" "}
                     <b>Home</b>
@@ -203,7 +257,6 @@ export default function Navbar() {
                     <b>Contact</b>
                   </a>
                 </Button>
-                
               </Stack>
             </Box>
           ) : null}

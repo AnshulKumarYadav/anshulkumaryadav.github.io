@@ -5,7 +5,7 @@ import sqlhacker from '../assets/sqlhacker.png';
 import javaStar from '../assets/starhacker.png';
 import sqlStar from '../assets/sqlstar.png';
 import codeExp from '../assets/codingExperience.jpg';
-import GithubCalendar from './GithubCalendar';
+import { GithubCalendar } from './GithubCalendar';
 export default function Stats() {
   return (
     <div id='workStats'>
@@ -36,7 +36,7 @@ export default function Stats() {
         </div>
 
       </div>
-      <h2 className="workStatsTitle">GitHub Calender</h2>
+      <h2 className="workStatsTitle">GitHub Analytics</h2>
        <GithubCalendar/>
     </div>
   )

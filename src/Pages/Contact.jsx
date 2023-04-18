@@ -71,7 +71,7 @@ const Contact = () => {
           <Input placeholder="Enter Subject" onChange={(e)=> setSubject(e.target.value)} isRequired />
           <Textarea placeholder="Enter Description" onChange={(e)=> setDescription(e.target.value)} />
           <Flex justifyContent={'right'}>
-            <Button w={'300px'} color={'white'} bg="#525CE5" _hover={{bg: "#525CE5"}} type="submit">
+            <Button w={'300px'} color={'white'} bg="#525CE5" _hover={{bg: "#5964F3"}} type="submit">
               Submit
             </Button>
           </Flex>

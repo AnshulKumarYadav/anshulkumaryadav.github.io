@@ -25,6 +25,7 @@ export default function Resume() {
     alink.href = Anshul_Kumar_Yadav;
     alink.download = 'Anshul_Resume.pdf';
     alink.click();
+    viewResume();
   };
   return (
     <>
