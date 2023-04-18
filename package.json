@@ -1,7 +1,8 @@
 {
-  "name": "navbar_dark_responsive",
+  "name": "react_responsive_portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://anshulkumaryadav.github.io/React_Responsive_Portfolio/",
   "dependencies": {
     "@chakra-ui/icon": "^3.0.14",
     "@chakra-ui/icons": "^2.0.16",
@@ -29,7 +30,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
