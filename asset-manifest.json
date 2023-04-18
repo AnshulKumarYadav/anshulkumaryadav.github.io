@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React_Responsive_Portfolio/static/css/main.69604db3.css",
+    "main.css": "/React_Responsive_Portfolio/static/css/main.b83636af.css",
     "main.js": "/React_Responsive_Portfolio/static/js/main.db2c00be.js",
     "static/js/787.ec7787c2.chunk.js": "/React_Responsive_Portfolio/static/js/787.ec7787c2.chunk.js",
     "static/media/MasaiCetificate.pdf": "/React_Responsive_Portfolio/static/media/MasaiCetificate.bbcd1286e33c10359629.pdf",
@@ -22,12 +22,12 @@
     "static/media/mysql.png": "/React_Responsive_Portfolio/static/media/mysql.83110f626cc9b15e3814.png",
     "index.html": "/React_Responsive_Portfolio/index.html",
     "static/media/logo.svg": "/React_Responsive_Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "main.69604db3.css.map": "/React_Responsive_Portfolio/static/css/main.69604db3.css.map",
+    "main.b83636af.css.map": "/React_Responsive_Portfolio/static/css/main.b83636af.css.map",
     "main.db2c00be.js.map": "/React_Responsive_Portfolio/static/js/main.db2c00be.js.map",
     "787.ec7787c2.chunk.js.map": "/React_Responsive_Portfolio/static/js/787.ec7787c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69604db3.css",
+    "static/css/main.b83636af.css",
     "static/js/main.db2c00be.js"
   ]
 }
