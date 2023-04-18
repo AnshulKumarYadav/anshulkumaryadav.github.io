@@ -136,7 +136,7 @@ export default function Navbar() {
             </HStack>
           </Flex>
           <Flex alignItems={"center"}>
-            <Stack direction={"row"} spacing={2}>
+            <Stack direction={"row"} spacing={2} display={['none','none','block','block']}>
               <Button
                 color={"white"}
                 bg="#525CE5"
@@ -156,57 +156,8 @@ export default function Navbar() {
             onClick={isOpen ? onClose : onOpen}
           />
           {isOpen ? (
-            <Box pb={4} display={{ md: "none" }}>
-              <Stack as={"nav"} spacing={4}>
-                <Button
-                  onClick={isOpen ? onClose : onOpen}
-                  _hover={{
-                    textShadow: "#FC0 1px 0 10px",
-                    transform: "scale(1.2)",
-                  }}
-                >
-                  <a href="#Home">
-                    {" "}
-                    <b>Home</b>
-                  </a>
-                </Button>
-                <Button
-                  onClick={isOpen ? onClose : onOpen}
-                  _hover={{
-                    textShadow: "#FC0 1px 0 10px",
-                    transform: "scale(1.2)",
-                  }}
-                >
-                  <a href="#Home">
-                    {" "}
-                    <b>Home</b>
-                  </a>
-                </Button>
-
-                <Button
-                  onClick={isOpen ? onClose : onOpen}
-                  _hover={{
-                    textShadow: "#FC0 1px 0 10px",
-                    transform: "scale(1.2)",
-                  }}
-                >
-                  <a href="#Home">
-                    {" "}
-                    <b>Home</b>
-                  </a>
-                </Button>
-                <Button
-                  onClick={isOpen ? onClose : onOpen}
-                  _hover={{
-                    textShadow: "#FC0 1px 0 10px",
-                    transform: "scale(1.2)",
-                  }}
-                >
-                  <a href="#Home">
-                    {" "}
-                    <b>Home</b>
-                  </a>
-                </Button>
+            <Box display={{ md: "none" }} bg={'white'} margin={'auto'} >
+              <Stack as={"nav"} spacing={4} width={'100%'}>
                 <Button
                   onClick={isOpen ? onClose : onOpen}
                   _hover={{

@@ -110,7 +110,7 @@ const Contact = () => {
       </div>
       <form onSubmit={submitForm}>
         <Stack w={"80%"} margin={"auto"} mt={'10'} spacing={"4"}>
-          <Flex>
+          <Flex flexWrap={['wrap','wrap','none','none']} gap={'10px'}>
             <Input placeholder="Enter Your Name" mr={"5"} onChange={(e)=> setName(e.target.value)} isRequired />
             <Input type="email" placeholder="Enter Your Email" onChange={(e)=> setEmail(e.target.value)} isRequired />
           </Flex>

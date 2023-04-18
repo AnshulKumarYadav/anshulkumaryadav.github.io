@@ -133,6 +133,7 @@ const Projects = () => {
             boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px"
             bg={"white"}
             p={"5"}
+            key={i}
           >
             <Box key={i}>
               <Image h={"40%"} w={"100%"} src={el.image} />
