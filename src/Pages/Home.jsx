@@ -115,7 +115,7 @@ const Home = () => {
             leftIcon={<FaFileDownload />}
             onClick={downloadAndOpenResume}
           >
-            ViewAndDownload Resume
+            Download Resume
           </Button>
           <div className="wrapper">
             <a href="#Contact">

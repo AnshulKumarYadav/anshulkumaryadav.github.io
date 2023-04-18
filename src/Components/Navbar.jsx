@@ -133,7 +133,7 @@ export default function Navbar() {
                 leftIcon={<FaFileDownload />}
                 onClick={downloadAndOpenResume}
               >
-                ViewAndDownload Resume
+                Download Resume
               </Button>
             </Stack>
           </Flex>
