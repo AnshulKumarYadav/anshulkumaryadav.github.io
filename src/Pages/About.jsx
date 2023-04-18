@@ -1,5 +1,5 @@
 import React from "react";
-import pic from '../assets/profilePic2.png';
+import pic from '../assets/profilePic.png';
 import { Box, Flex, Heading, Image } from "@chakra-ui/react";
 
 const About = () => {
@@ -8,7 +8,7 @@ const About = () => {
       <Heading mb={"5"}>About me</Heading>
       <div className="ul1"></div>
       <div className="ul2"></div>
-        <Flex mt={'5'} justifyContent={'space-around'} flexDirection={['column','column','row','row']}>
+        <Flex mt={'5'} justifyContent={'space-around'} flexDirection={['reverse-column','reverse-column','row','row']}>
           <Box fontSize={'20'} >
             <h3>👤 Summary</h3>
             <p>➡️ I am a passionate software developer with web development technologies.</p>

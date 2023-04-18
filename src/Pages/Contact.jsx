@@ -1,6 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import '../Styles/Contact.scss'
 import {
   Box,
   Button,
@@ -12,6 +13,8 @@ import {
   useToast,
 } from "@chakra-ui/react";
 import { useState } from "react";
+import { SiGmail, SiTwitter } from "react-icons/si";
+import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const Contact = () => {
   const toast = useToast();
@@ -60,10 +63,53 @@ const Contact = () => {
   }
 
   return (
-    <Box p={"5"} mb={"5"}>
-      <Heading ml={"10px"}>Contact Me</Heading>
+    <Box id="Contact" p={"10"}>
+      <Heading mb={"5"}>Contact</Heading>
+      <div className="ul1"></div>
+      <div className="ul2"></div>
+      <div id="homeSocial">
+        <div className="socialMedia">
+          <div>
+            <a target="blank" href="mailto:rishabhyadav3602@gmail.com">
+              <SiGmail className="mediaIcons" />
+            </a>
+          </div>
+          <div>
+            <a
+              target="blank"
+              href="https://www.linkedin.com/in/anshul-kumar-yadav/"
+            >
+              <FaLinkedinIn className="mediaIcons" />
+            </a>
+          </div>
+          <div>
+            <a target="blank" href="https://github.com/AnshulKumarYadav">
+              <FaGithub className="mediaIcons" />
+            </a>
+          </div>
+          <div>
+            <a target="blank" href="https://twitter.com/RISHABH48133056">
+              <SiTwitter className="mediaIcons" />
+            </a>
+          </div>
+          <div>
+            <a target="blank" href="https://www.instagram.com/rishuyadav3602/">
+              <FaInstagram className="mediaIcons" />
+            </a>
+          </div>
+          <div>
+            <a
+              target="blank"
+              href="https://www.facebook.com/people/Rishabh-Yadav/100020567491022/"
+            >
+              <FaFacebookF className="mediaIcons" />
+            </a>
+          </div>
+        </div>
+        
+      </div>
       <form onSubmit={submitForm}>
-        <Stack w={"80%"} margin={"auto"} spacing={"4"}>
+        <Stack w={"80%"} margin={"auto"} mt={'10'} spacing={"4"}>
           <Flex>
             <Input placeholder="Enter Your Name" mr={"5"} onChange={(e)=> setName(e.target.value)} isRequired />
             <Input type="email" placeholder="Enter Your Email" onChange={(e)=> setEmail(e.target.value)} isRequired />
