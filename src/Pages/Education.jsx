@@ -47,11 +47,11 @@ export default function Education() {
         gridTemplateColumns={[
           "repeat(1,auto)",
           "repeat(1,auto)",
-          "repeat(2,auto)",
+          "repeat(1,auto)",
           "repeat(2,auto)",
         ]}
         gridTemplateRows="repeat(auto,auto)"
-        justifyContent={["center", "center", "space-between", "space-between"]}
+        justifyContent={["center", "center", "center", "space-between"]}
         gap={["5", "6", "8", "10"]}
         mt={"10"}
         p={"5"}

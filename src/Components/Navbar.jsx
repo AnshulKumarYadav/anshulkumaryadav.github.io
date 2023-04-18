@@ -136,7 +136,7 @@ export default function Navbar() {
             </HStack>
           </Flex>
           <Flex alignItems={"center"}>
-            <Stack direction={"row"} spacing={2} display={['none','none','block','block']}>
+            <Stack direction={"row"} spacing={2} display={['none','none','none','block']}>
               <Button
                 color={"white"}
                 bg="#525CE5"
@@ -144,7 +144,7 @@ export default function Navbar() {
                 leftIcon={<FaFileDownload />}
                 onClick={downloadAndOpenResume}
               >
-                Download Resume
+                Resume
               </Button>
             </Stack>
           </Flex>

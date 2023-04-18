@@ -66,19 +66,19 @@ export default function Work() {
             // gap={"6"}
             p={"6"}
             key={i}
-            flexDirection={["column", "column", "row", "row"]}
+            flexDirection={["column", "column", "column", "row"]}
             boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"
             alignItems={"center"}
           >
             <Box>
               <Image
                 h={["auto", "auto", "300px", "300px"]}
-                w={["100%", "100%", "90%", "90%"]}
+                w={["100%", "100%", "100%", "90%"]}
                 src={el.image}
               />
               <Text mt={'5'} fontSize={'20'}>Live Link: <a href="http://52.65.35.157/" target="blank">http://52.65.35.157/</a></Text>
             </Box>
-            <Box w={["100%", "100%", "60%", "60%"]}>
+            <Box w={["100%", "100%", "100%", "60%"]}>
               <Heading fontSize={"30"} fontWeight={"700"}>
                 {el.title}
               </Heading>

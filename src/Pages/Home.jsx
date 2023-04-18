@@ -98,7 +98,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <Button
+          {/* <Button
             color={"white"}
             bg="#525CE5"
             _hover={{ bg: "#5964F3" }}
@@ -107,7 +107,7 @@ const Home = () => {
             onClick={viewResume}
           >
             View Resume
-          </Button>
+          </Button> */}
           <Button
             color={"white"}
             bg="#525CE5"
@@ -115,7 +115,7 @@ const Home = () => {
             leftIcon={<FaFileDownload />}
             onClick={downloadAndOpenResume}
           >
-            Download Resume
+            Resume
           </Button>
           <div className="wrapper">
             <a href="#Contact">

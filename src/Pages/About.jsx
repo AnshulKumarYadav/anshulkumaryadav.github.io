@@ -8,7 +8,7 @@ const About = () => {
       <Heading mb={"5"}>About me</Heading>
       <div className="ul1"></div>
       <div className="ul2"></div>
-        <Flex mt={'5'} justifyContent={['center','center','space-around','space-around']} flexDirection={['column-reverse','column-reverse','row','row']}>
+        <Flex mt={'5'} justifyContent={['center','center','space-around','space-around']} flexDirection={['column-reverse','column-reverse','column-reverse','row']}>
           <Box fontSize={'20'} >
             <h3>👤 Summary</h3>
             <p>➡️ I am a passionate software developer with web development technologies.</p>
@@ -26,7 +26,7 @@ const About = () => {
             <p>➡️ When I'm not at the keyboard, I like playing cricket and hanging out with friends.</p>
           </Box>
           <Box >
-            <Image border={'10px inset gold'} bgGradient={'linear-gradient(90deg, rgba(125,215,213,1) 0%, rgba(176,232,231,1) 6%, rgba(249,214,214,1) 27%, rgba(217,254,255,1) 82%)'}  h={'250px'} src={pic} />
+            <Image margin={['auto','auto','auto','none']} border={'10px inset gold'} bgGradient={'linear-gradient(90deg, rgba(125,215,213,1) 0%, rgba(176,232,231,1) 6%, rgba(249,214,214,1) 27%, rgba(217,254,255,1) 82%)'}  h={'250px'} src={pic} />
           </Box>
         </Flex>
     </Box>
