@@ -34,6 +34,7 @@
         .socialMedia{
             width: 50%;
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-around;
             align-items: center;
             margin: auto;
