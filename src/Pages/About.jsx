@@ -8,7 +8,7 @@ const About = () => {
       <Heading mb={"5"}>About me</Heading>
       <div className="ul1"></div>
       <div className="ul2"></div>
-        <Flex mt={'5'} justifyContent={'space-around'} flexDirection={['reverse-column','reverse-column','row','row']}>
+        <Flex mt={'5'} justifyContent={['center','center','space-around','space-around']} flexDirection={['column-reverse','column-reverse','row','row']}>
           <Box fontSize={'20'} >
             <h3>👤 Summary</h3>
             <p>➡️ I am a passionate software developer with web development technologies.</p>
