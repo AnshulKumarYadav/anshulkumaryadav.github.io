@@ -69,6 +69,8 @@ export default function Work() {
             flexDirection={["column", "column", "column", "row"]}
             boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"
             alignItems={"center"}
+            
+            borderRadius={'10'}
           >
             <Box>
               <Image

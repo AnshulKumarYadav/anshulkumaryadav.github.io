@@ -175,10 +175,9 @@ const Projects = () => {
           <Box
             borderRadius={"10"}
             boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px"
-            bg={"white"}
-            color={'#000'}
             p={"5"}
             key={i}
+            border={`1px solid --skin-color`}
           >
             <Box key={i}>
               <Image h={"40%"} w={"100%"} src={el.image} />
