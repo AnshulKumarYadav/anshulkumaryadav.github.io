@@ -176,6 +176,7 @@ const Projects = () => {
             borderRadius={"10"}
             boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px"
             bg={"white"}
+            color={'#000'}
             p={"5"}
             key={i}
           >
