@@ -135,20 +135,20 @@ let projects = [
       "https://img.shields.io/badge/JAVASCRIPT-E3E879?style=for-the-badge&logo=javascript&logoColor=white",
     ],
   },
-  {
-    image: foodyShop,
-    name: " Food Reciepe App ",
-    type: "Backend App",
-    description:
-      "This app is useful for the whom who wants to know the reciepe for the delicious food .",
-    liveLink: "https://anshulkumaryadav.github.io/foodyShop",
-    repoLink: "http://github.com/AnshulKumarYadav/foodyShop",
-    techStacks: [
-      "https://img.shields.io/badge/HTML-EC4C15?style=for-the-badge&logo=html5&logoColor=white",
-      "https://img.shields.io/badge/CSS-47EDFA?style=for-the-badge&logo=css3&logoColor=white",
-      "https://img.shields.io/badge/JAVASCRIPT-E3E879?style=for-the-badge&logo=javascript&logoColor=white",
-    ],
-  },
+  // {
+  //   image: foodyShop,
+  //   name: " Food Reciepe App ",
+  //   type: "Backend App",
+  //   description:
+  //     "This app is useful for the whom who wants to know the reciepe for the delicious food .",
+  //   liveLink: "https://anshulkumaryadav.github.io/foodyShop",
+  //   repoLink: "http://github.com/AnshulKumarYadav/foodyShop",
+  //   techStacks: [
+  //     "https://img.shields.io/badge/HTML-EC4C15?style=for-the-badge&logo=html5&logoColor=white",
+  //     "https://img.shields.io/badge/CSS-47EDFA?style=for-the-badge&logo=css3&logoColor=white",
+  //     "https://img.shields.io/badge/JAVASCRIPT-E3E879?style=for-the-badge&logo=javascript&logoColor=white",
+  //   ],
+  // },
 ];
 
 const Projects = () => {
