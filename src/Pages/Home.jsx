@@ -15,14 +15,12 @@ import { Button } from "@chakra-ui/react";
 
 const Home = () => {
   const downloadAndOpenResume = () => {
+    viewResume();
     let downloadLink = document.createElement("a");
     downloadLink.href =
       "https://drive.google.com/uc?export=download&id=14k8jyuzmjHquZP5SRLwy2WsW0keFespf";
     downloadLink.download = "Anshul_Resume.pdf";
-    document.body.appendChild(downloadLink);
     downloadLink.click();
-    viewResume();
-    document.body.removeChild(downloadLink);
   };
 
   const viewResume = () => {
@@ -30,7 +28,6 @@ const Home = () => {
       "https://drive.google.com/file/d/14k8jyuzmjHquZP5SRLwy2WsW0keFespf/view?usp=sharing"
     );
   };
-
   return (
     <div id="Home">
       <div id="textAbout">

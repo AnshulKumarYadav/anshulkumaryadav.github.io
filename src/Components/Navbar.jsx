@@ -31,14 +31,12 @@ export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const downloadAndOpenResume = () => {
+    viewResume();
     let downloadLink = document.createElement("a");
     downloadLink.href =
       "https://drive.google.com/uc?export=download&id=14k8jyuzmjHquZP5SRLwy2WsW0keFespf";
     downloadLink.download = "Anshul_Resume.pdf";
-    document.body.appendChild(downloadLink);
     downloadLink.click();
-    viewResume();
-    document.body.removeChild(downloadLink);
   };
 
   const viewResume = () => {
