@@ -18,6 +18,7 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedinIn,
+  FaPhone,
 } from "react-icons/fa";
 
 const Contact = () => {
@@ -56,6 +57,14 @@ const Contact = () => {
       .catch((err) => handleToast(err.message, "error"));
   };
 
+  let contactStyle = {
+    margin : 'auto',
+    boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+    borderRadius : '50%',
+    width : 'fit-content',
+    padding : '10px',
+  };
+
   const handleToast = (title, status) => {
     toast({
       title: title,
@@ -71,27 +80,37 @@ const Contact = () => {
       <Heading mb={"5"}>Contact</Heading>
       <div className="ul1"></div>
       <div className="ul2"></div>
-      <Flex flexWrap='wrap' m="auto" w='80%' justifyContent={'space-around'}>
-        <Stack >
-          <div>
+      <Flex flexWrap="wrap" m="auto" w="80%" justifyContent={"space-around"}>
+        <Stack>
+          <div style={contactStyle}>
             <a target="blank" href="mailto:rishabhyadav3602@gmail.com">
               <SiGmail color="#df484b" />
             </a>
           </div>
-          <a textAlign='center' href="mailto:rishabhyadav3602@gmail.com">
+          <a textAlign="center" href="mailto:rishabhyadav3602@gmail.com">
             rishabhyadav3602@gmail.com
           </a>
         </Stack>
         <Stack>
-        <div>
-          <a
-            target="blank"
-            href="https://www.linkedin.com/in/anshul-kumar-yadav/"
-          >
-            <FaLinkedinIn color='#0A66C2'/>
+          <div style={contactStyle}>
+            <a target="blank" href="tel:+917060476249">
+              <FaPhone color="green" />
+            </a>
+          </div>
+          <a textAlign="center" href="tel:+917060476249">
+            +917060476249
           </a>
-        </div>
-        <a
+        </Stack>
+        <Stack>
+          <div style={contactStyle}>
+            <a
+              target="blank"
+              href="https://www.linkedin.com/in/anshul-kumar-yadav/"
+            >
+              <FaLinkedinIn color="#0A66C2" />
+            </a>
+          </div>
+          <a
             target="blank"
             href="https://www.linkedin.com/in/anshul-kumar-yadav/"
           >
@@ -99,51 +118,33 @@ const Contact = () => {
           </a>
         </Stack>
         <Stack>
-        <div>
+          <div style={contactStyle}>
+            <a target="blank" href="https://github.com/AnshulKumarYadav">
+              <FaGithub color="#242425" />
+            </a>
+          </div>
           <a target="blank" href="https://github.com/AnshulKumarYadav">
-            <FaGithub color='#242425' />
-          </a>
-        </div>
-        <a target="blank" href="https://github.com/AnshulKumarYadav">
             AnshulKumarYadav
           </a>
         </Stack>
         <Stack>
-        <div>
+          <div style={contactStyle}>
+            <a target="blank" href="https://twitter.com/RISHABH48133056">
+              <SiTwitter color="#1DA1F2" />
+            </a>
+          </div>
           <a target="blank" href="https://twitter.com/RISHABH48133056">
-            <SiTwitter color='#1DA1F2' />
-          </a>
-        </div>
-        <a target="blank" href="https://twitter.com/RISHABH48133056">
             RISHABH48133056
           </a>
         </Stack>
         <Stack>
-
-        <div>
+          <div style={contactStyle}>
+            <a target="blank" href="https://www.instagram.com/rishuyadav3602/">
+              <FaInstagram color="radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)" />
+            </a>
+          </div>
           <a target="blank" href="https://www.instagram.com/rishuyadav3602/">
-            <FaInstagram color='radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)' />
-          </a>
-        </div>
-        <a target="blank" href="https://www.instagram.com/rishuyadav3602/">
             rishuyadav3602
-          </a>
-        </Stack>
-        <Stack>
-
-        <div>
-          <a
-            target="blank"
-            href="https://www.facebook.com/people/Rishabh-Yadav/100020567491022/"
-          >
-            <FaFacebookF color='#3b5998' />
-          </a>
-        </div>
-         <a
-            target="blank"
-            href="https://www.facebook.com/people/Rishabh-Yadav/100020567491022/"
-          >
-            Rishabh-Yadav/100020567491022/
           </a>
         </Stack>
       </Flex>

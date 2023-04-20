@@ -12,7 +12,7 @@ import shoppingApp from "../assets/shopping.jpg";
 import redbus from "../assets/redbus.jpg";
 import wheather from "../assets/wheather.png";
 import foodyShop from "../assets/foodyShop.png";
-import masailearn from '../assets/masailearn.png'
+// import masailearn from '../assets/masailearn.png'
 import {
   Box,
   Flex,
@@ -25,32 +25,6 @@ import {
 import Work from "./Work";
 
 let projects = [
-  {
-    image: masailearn,
-    name: "MasaiLearn - A Learning Platform",
-    type: "Full Stack App",
-    description:
-      "Masai Learn is your one stop solution for enhancing your tech knowledge and upskilling to stand out in the IT industry. Be it Python or Java, MasaiLearn has got something for everyone. The project uses Java Springboot to implement the microservice serving the frontend built in React.js.",
-    liveLink: "",
-    repoLink: "http://github.com/AnshulKumarYadav/redbus",
-    techStacks: [
-      "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
-      "https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white",
-      "https://img.shields.io/badge/Chakra--UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white",
-      "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
-      "https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white",
-      "https://img.shields.io/badge/Java-005C84?style=for-the-badge&logo=openjdk&logoColor=white",
-      "https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot",
-      "https://img.shields.io/badge/Maven-C7F3F1?style=for-the-badge&logo=apachemaven&logoColor=red",
-      "https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white",
-      "https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=Apache&logoColor=white",
-      "https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=Spring-Security&logoColor=white",
-      "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white",
-      "https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white",
-      "https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white",
-      "https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white",
-    ],
-  },
   {
     image: redbus,
     name: " Redbus - Bus Ticketing App ",
@@ -106,49 +80,7 @@ let projects = [
       "https://img.shields.io/badge/CSS-47EDFA?style=for-the-badge&logo=css3&logoColor=white",
       "https://img.shields.io/badge/JAVASCRIPT-E3E879?style=for-the-badge&logo=javascript&logoColor=white",
     ],
-  },
-  {
-    image: wheather,
-    name: " Wheather App ",
-    type: "Frontend App",
-    description:
-      "A wheather app where we can see the weather of a city by searching or by giving location permission and here we can also see the 7 days forcast.",
-    liveLink: "https://anshulkumaryadav.github.io/weatherApp/",
-    repoLink: "http://github.com/AnshulKumarYadav/weatherApp",
-    techStacks: [
-      "https://img.shields.io/badge/HTML-EC4C15?style=for-the-badge&logo=html5&logoColor=white",
-      "https://img.shields.io/badge/CSS-47EDFA?style=for-the-badge&logo=css3&logoColor=white",
-      "https://img.shields.io/badge/JAVASCRIPT-E3E879?style=for-the-badge&logo=javascript&logoColor=white",
-    ],
-  },
-  {
-    image: "https://miro.medium.com/max/700/1*nhm4FnPWW69oTAEPT02umQ.png",
-    name: " Youtube Clone ",
-    type: "Frontend App",
-    description:
-      "A frontend clone of YouTube, where in the home page user will find popular videos of YouTube and also can search for the desired videos it will show all the videos related to search on the result page.",
-    liveLink: "https://anshulkumaryadav.github.io/youtube",
-    repoLink: "http://github.com/AnshulKumarYadav/youtube",
-    techStacks: [
-      "https://img.shields.io/badge/HTML-EC4C15?style=for-the-badge&logo=html5&logoColor=white",
-      "https://img.shields.io/badge/CSS-47EDFA?style=for-the-badge&logo=css3&logoColor=white",
-      "https://img.shields.io/badge/JAVASCRIPT-E3E879?style=for-the-badge&logo=javascript&logoColor=white",
-    ],
-  },
-  // {
-  //   image: foodyShop,
-  //   name: " Food Reciepe App ",
-  //   type: "Backend App",
-  //   description:
-  //     "This app is useful for the whom who wants to know the reciepe for the delicious food .",
-  //   liveLink: "https://anshulkumaryadav.github.io/foodyShop",
-  //   repoLink: "http://github.com/AnshulKumarYadav/foodyShop",
-  //   techStacks: [
-  //     "https://img.shields.io/badge/HTML-EC4C15?style=for-the-badge&logo=html5&logoColor=white",
-  //     "https://img.shields.io/badge/CSS-47EDFA?style=for-the-badge&logo=css3&logoColor=white",
-  //     "https://img.shields.io/badge/JAVASCRIPT-E3E879?style=for-the-badge&logo=javascript&logoColor=white",
-  //   ],
-  // },
+  }
 ];
 
 const Projects = () => {
