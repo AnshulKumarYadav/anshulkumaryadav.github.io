@@ -31,7 +31,7 @@ let projects = [
     type: "Backend App",
     description:
       "Redbus is a bus ticket booking app where we book a ticket with a particular sourct station to destination station. ",
-    liveLink: "",
+    liveLink: "http://github.com/AnshulKumarYadav/redbus",
     repoLink: "http://github.com/AnshulKumarYadav/redbus",
     techStacks: [
       "https://img.shields.io/badge/Java-005C84?style=for-the-badge&logo=openjdk&logoColor=white",
@@ -52,7 +52,7 @@ let projects = [
     type: "Backend App",
     description:
       "Redbus is a bus ticket booking app where we book a ticket with a particular sourct station to destination station.",
-    liveLink: "",
+    liveLink: "http://github.com/AnshulKumarYadav/redbus",
     repoLink: "http://github.com/AnshulKumarYadav/redbus",
     techStacks: [
       "https://img.shields.io/badge/Java-005C84?style=for-the-badge&logo=openjdk&logoColor=white",
