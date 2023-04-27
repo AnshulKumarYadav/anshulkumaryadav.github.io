@@ -1,10 +1,4 @@
 import React from "react";
-import MasaiCertificate from "../assets/MasaiCetificate.pdf";
-import DiplomaCertificate from "../assets/DiplomahCertificate.pdf";
-import Certificate from "../Components/Certificate";
-import { SiGmail } from "react-icons/si";
-import { FaPhoneAlt } from "react-icons/fa";
-import { MdLocationOn } from "react-icons/md";
 import ignou from "../assets/ignou.png";
 import masailogo from "../assets/masailogo.png";
 import mpslogo from "../assets/mps.jpeg";
