@@ -52,8 +52,8 @@ let projects = [
     type: "Backend App",
     description:
       "Redbus is a bus ticket booking app where we book a ticket with a particular sourct station to destination station.",
-    liveLink: "http://github.com/AnshulKumarYadav/redbus",
-    repoLink: "http://github.com/AnshulKumarYadav/redbus",
+    liveLink: "https://github.com/AnshulKumarYadav/online-shopping-app-",
+    repoLink: "https://github.com/AnshulKumarYadav/online-shopping-app-",
     techStacks: [
       "https://img.shields.io/badge/Java-005C84?style=for-the-badge&logo=openjdk&logoColor=white",
       "https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot",
