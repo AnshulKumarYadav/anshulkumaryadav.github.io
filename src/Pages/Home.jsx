@@ -1,7 +1,6 @@
 import React from "react";
 import "../Styles/Home.scss";
 import Typewriter from "typewriter-effect";
-import Resume from "../Components/Resume";
 import {
   FaEye,
   FaFacebookF,
